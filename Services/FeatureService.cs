@@ -4,10 +4,11 @@ using Booking_API.Services.IService;
 
 namespace Booking_API.Services
 {
-    public class TicketService : Service<Ticket>, ITicketService
+    public class FeatureService : Service<Feature>, IFeatureService
     {
-        public TicketService(IUnitOfWork unitOfWork) : base(unitOfWork)
+        public FeatureService(IUnitOfWork unitOfWork) : base(unitOfWork)
         {
+
         }
     }
 }

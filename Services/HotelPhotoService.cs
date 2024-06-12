@@ -4,10 +4,11 @@ using Booking_API.Services.IService;
 
 namespace Booking_API.Services
 {
-    public class AirlineService : Service<Airline>, IAirlineService
+    public class HotelPhotoService : Service<HotelPhoto>, IHotelPhotoService
     {
-        public AirlineService(IUnitOfWork unitOfWork) : base(unitOfWork)
+        public HotelPhotoService(IUnitOfWork unitOfWork) : base(unitOfWork)
         {
+
         }
     }
 }
